@@ -31,13 +31,14 @@ public class GenericMethod {
 
 
     public static void main(String[] args) {
-        String[]strings={"a,","b"};
+        String[]strings={"a","b"};
         Integer[]integers={1,2,3,4};
         printArrayGeneric(strings);
         printArrayGeneric(integers);
         System.out.println(getfirst(strings));
         System.out.println(getfirst(integers));
         printArrayAndElement(strings,getfirst(integers));
+
 
     }
 }
