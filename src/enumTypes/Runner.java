@@ -20,4 +20,10 @@ public class Runner {
 
         }
     }
+    public static void printPSE(PassStr strength){
+        if (strength.equals(PassStr.TOO_WEAK)){
+            System.out.println("tooweak");
+            System.out.println(strength.getLevel());
+        }
+    }
 }
